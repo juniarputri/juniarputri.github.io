@@ -1,0 +1,133 @@
+/*start font*/
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+/*end font*/ 
+
+/*start body*/
+body { 
+    background-color: navajowhite;
+    color: palevioletred;
+    font-family: 'kalam','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+/*end body*/
+
+.palevioletred {
+    color:palevioletred;
+    font: size 12px;
+}
+
+.white {
+    color: putih;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*start debug*/
+.bg-blue {
+    background-color: pink;
+}
+.bg-green {
+    background-color: pink;
+}
+
+/*end debug*/
+
+/*start container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+.container-full bg-pink {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/*end container*/
+
+/*start menu primer*/
+.menu-primer ul {
+    background-color: pink;
+    border-radius: 4px;
+}
+.menu-primer li {
+    border-right: 1px salmon;
+    display: inline-block;
+}
+.menu-primer a {
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+}
+.menu-primer a:hover {
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+}
+/*end menu primer*/
+
+/*start anchor / hyperlink */
+a:link,
+a:visited {
+        color: palevioletred
+        text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+/*end anchor / hyperlink */
+
+/*start main*/
+.main-home-one {
+    float: left;
+    width: 45%;
+}
+
+.main-home-two {
+    float: right;
+    width: 45%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 200px;
+}
+/*end main*/
+
+/*start box*/
+.box-heading {
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 2px 2px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 17px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: white;
+    border: 1px solid pink
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/*end box*/
+
+/*start favicon*/
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
